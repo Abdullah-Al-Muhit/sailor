@@ -1,0 +1,648 @@
+
+
+/*		Default Layout: 960px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+	
+nav .navbar {
+    width: 100%;
+    padding-top: 7px;
+    margin: 0 auto;
+    padding-left: 1%;
+}
+nav .menu li a, nav .open-submenu {
+    color: #787878;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    padding: 0 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    margin-top: 14px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    color: #2B3A42;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 540;
+    transition: background-color .3s;
+    font-size: 11px;
+}
+nav .logo {
+    float: left;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 1.5%;
+    margin-left: 5px;
+    color: #2B3A42;
+    font-family: "Gill Sans", sans-serif;
+}
+.u-h-c button {
+    margin-top: 16%;
+    margin-left: 17%;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-weight: 600;
+    padding: 18px 22px;
+}
+
+.icon-part {
+    background: #1A2C38;
+    padding: 3% 10%;
+}
+.content p {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1em;
+}
+.content-1 p {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.content-1 button {
+    background: none;
+    padding: 1.5% 4.5%;
+    color: white;
+    font-weight: 500;
+    border: 2px solid white;
+    margin-left: 31.5%;
+    margin-top: 4%;
+}
+.c-2-1st-p {
+    background: #F4F4F4;
+    font-size: 18px;
+    font-weight: 10;
+    margin-left: -27px !important;
+    padding: 15px 40px;
+        padding-left: 40px;
+    color: #787878;
+    padding-left: 51px;
+}
+.content-2 h4 {
+    padding: 35px 25px;
+    font-size: 30px;
+}
+.c-2-2nd-p {
+    padding: 0px 25px;
+    line-height: 1.5rem;
+    font-size: 17px;
+    color: #444444;
+}
+.c-2-table {
+    margin-left: 25px;
+    width: 90%;
+    margin-top: 7%;
+}
+.c-4-u-p {
+    color: #2B3941;
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-weight: 30;
+    width: 87% !important;
+    text-align: center;
+    padding-left: 10%;
+}
+.r-bo {
+    font-size: 13px;
+    color: #CBB28D;
+    border: 1px solid #CBB28D;
+    text-align: center;
+    padding: 1px;
+    border-radius: 50% 50%;
+}
+.content-5 {
+    background: url('image/ship.jpg') no-repeat;
+        background-size: auto;
+    background-size: cover;
+    padding: 6% 6%;
+}
+
+.content-7 h4 {
+    padding-top: 8px;
+    font-size: 21px;
+    color: white;
+    font-weight: 500;
+}
+.content-7 button {
+    margin-left: 35% !important;
+    margin-bottom: 0px;
+    padding: 8px 18px !important;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    margin-top: 12px;
+	font-size: 15px;
+}
+.c-8-p-2{
+	padding:3% 4.5%;
+}
+.content-8 button {
+    padding: 10px 18px;
+    background: none;
+    color: #BB9C6F;
+    font-size: 15px;
+    border: 2px solid #BB9C6F;
+    margin-right: 390px;
+    font-weight: bold;
+}
+.nxt-pre {
+    float: right;
+    font-size: 16px;
+    color: #444444;
+    font-weight: 50;
+    text-decoration: none;
+    margin-right: 7%;
+}
+.content-9 p {
+    font-size: 17px;
+    line-height: 1.5em;
+    padding-left: 1%;
+    padding-right: 3%;
+}
+.content-9 button {
+    background: none;
+    padding: 1.5% 4.5%;
+    color: white;
+    font-weight: 500;
+    border: 2px solid white;
+    margin-left: 36.5%;
+    margin-top: 4%;
+}
+.upper-footer h6 {
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: white;
+}
+.upper-footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.l-s-t-n i {
+    color: #C4A880;
+    margin-right: 5px;
+    font-size: 10px;
+}
+.upper-footer p {
+    color: white;
+    font-size: 12px;
+}
+.up-f-i {
+    padding: 5px 6px;
+    background: #515E64;
+    color: white;
+    border: 1px solid #515E64;
+    text-align: center;
+    border-radius: 50% 50%;
+    
+    font-size: 9px !important;
+}
+
+.content-3 p {
+    color: #2B3941;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+	
+	nav {
+    width: 100%;
+    background: #FFFFFF;
+    min-height: 61px;
+    min-width: 1000px;
+}
+nav .navbar {
+    width: 100%;
+    padding-top: 7px;
+    margin: 0 auto;
+    padding-left: 3%;
+}
+
+nav .logo {
+    float: left;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 10%;
+    margin-left: 5px;
+    color: #2B3A42;
+    font-family: "Gill Sans", sans-serif;
+}
+
+
+#under-header {
+    
+        background-size: auto;
+    min-height:auto;
+    background-size: cover;
+}
+.u-h-c h2 {
+    text-align: center;
+    color: white;
+    background: #2B3A42;
+    padding: 10px 0px;
+    width: 100%;
+    font-weight: 350;
+    margin-left: 0%;
+    font-size: 15px;
+	margin-top: -10px;
+	margin-bottom: 22px;
+	
+	
+}
+.u-h-c button {
+    margin-top: 0.2% !important;
+    margin-left: 7%;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-weight: 600;
+    padding: 11px 3px !important;
+    font-size: 12px !important;
+}
+.u-h-c {
+    padding: 20% 14%;
+}
+	.content {
+    border-left:none;
+}
+.content-last-child {
+    border-right: none;
+}
+.icon-part img {
+    width: 32%;
+    height: 60%;
+    margin: 4% 31%;
+    padding-bottom: 25px;
+}
+.content-1 {
+    background: #C4A880;
+    padding: 8% 9%;
+}
+.content-1 h3 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 23px;
+    padding-bottom: 6%;
+}
+.content-1 p {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 13px !important;
+    line-height: 15px;
+}
+.content-1 button {
+    background: none;
+    padding: 1.5% 2.5%;
+    color: white;
+    font-weight: 500;
+    border: 2px solid white;
+    margin-left: 23.5%;
+    margin-top: 5%;
+}
+.t-i {
+    font-size: 1em;
+    color: #C4A981;
+    text-align: center;
+    padding: 0px 10px;
+    
+}
+.table thead th {
+    vertical-align: middle;
+    border-bottom: 1px solid #dee2e6;
+}
+.content-2 {
+    
+    padding-bottom: 25px;
+}
+.c-2-1st-p {
+    background: #F4F4F4;
+    font-size: 18px;
+    font-weight: 10;
+    margin-left: -27px !important;
+    padding: 15px 44px;
+    color: #787878;
+}
+.content-2 h4 {
+    padding: 35px 14px;
+    font-size: 30px;
+}
+.c-2-table {
+    margin-left: 14px;
+    width: 90%;
+    margin-top: 7%;
+}
+.nxt-pre {
+    float: right;
+    font-size: 16px;
+    color: #444444;
+    font-weight: 50;
+    text-decoration: none;
+    margin-right: 14%;
+}
+.content-3 {
+    background: #DCDCDC;
+    padding: 5% 3%;
+    text-align: center;
+}
+.content-3 h2 {
+    color: #2B3941;
+    padding-bottom: 20px;
+	font-size: 19px;
+}
+.content-3 p {
+    color: #2B3941;
+    font-size: 13px;
+    padding-bottom: 3px;
+	padding-left: 34px;
+    padding-right: 36px;
+}
+.content-4 h2 {
+    color: #2B3941;
+    padding-bottom: 20px;
+    padding-top: 29px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.c-4-u-p {
+    color: #2B3941;
+    font-size: 13px;
+    padding-bottom: 20px;
+    font-weight: 30;
+    width: 91%;
+    text-align: center;
+    padding-left: 5%;
+}
+.c-2-2nd-p {
+    padding: 0px 12px;
+    line-height: 1.5rem;
+    font-size: 13px;
+    color: #444444;
+}
+.inside-c-4 {
+    padding: 2% 6%;
+    text-align: left !important;
+}
+.content-5 h2 {
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 19px;
+}
+.content-5 p {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+.content-5 button {
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    background: none;
+    padding: 10px 21px;
+    margin-left: 26%;
+    margin-top: 7px;
+    border: 2px solid white;
+	margin-bottom: 5px;
+}
+.content-5 {
+    background: url('image/ship.jpg') no-repeat;
+      
+	height: 100%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    padding: 6% 2%;
+}
+.content-6 i {
+    font-size: 19px;
+    color: #CBB28D;
+    border: 1px solid #CBB28D;
+    text-align: center;
+    padding: 14px;
+    border-radius: 50% 50%;
+    margin-bottom: 15px;
+}
+.content-7 h4 {
+    padding-top: 22px;
+    padding-bottom: 10px;
+    font-size: 17px !important;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+.content-7 button {
+   
+    margin-bottom: 28px;
+    padding: 8px 9px !important;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 24% !important;
+}
+.r-bo {
+    font-size: 17px;
+    color: #CBB28D;
+    border: 1px solid #CBB28D;
+    text-align: center;
+    padding: 4px;
+    border-radius: 50% 50%;
+}
+.content-8 h2 {
+    margin-left: 14px;
+    margin-top: 27px;
+    line-height: 1.5em;
+    margin-right: 0px;
+    font-size: 19px;
+}
+.content-8 p {
+    color: #444444;
+    font-size: 13px;
+}
+.p-s-d {
+    margin-left: 14px;
+    margin-right: 17px;
+    padding: 18px 0 32px 0;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+   
+}
+.p-s-d p {
+    float: left;
+    padding-right: 13px;
+    padding-left: 16px;
+    border-right: .5px solid #DDDDDD;
+}
+.p-pd {
+    padding: 0px 0px;
+        padding-left: 0px;
+    margin-right: 16px;
+    padding-left: 14px;
+}
+.p-pd-2 {
+    padding-left: 10px;
+    margin-right: 9px;
+    padding-bottom: 0;
+    margin-left: 5px;
+}
+.content-7 {
+    padding: unset;
+	padding-top:25px;
+    background: #515E64;
+    color: white;
+    
+}
+.content-8{
+	padding-bottom:30px;
+}
+.content-8 button {
+    padding: 5px 11px;
+    background: none;
+    color: #BB9C6F;
+    font-size: 13px;
+    border: 2px solid #BB9C6F;
+    margin-right: 38px;
+    font-weight: bold;
+}
+.nxt-pre a {
+    font-size: 13px;
+    color: #444444;
+    text-decoration: none;
+    padding-left: 12px;
+    
+}
+.content-9 {
+    padding: 9% 3% !important;
+}
+.content-9 h3{
+    font-size: 22px !important;
+    
+}
+.content-9 p{
+    font-size: 13px !important;
+    
+}
+.content-11 h2 {
+    text-align: center;
+    font-size: 29px;
+    color: #C5A97F;
+    padding-bottom: 14px;
+}
+.content-11 h4 {
+    font-size: 18px;
+    padding-top: 9px;
+}
+.upper-footer h6 {
+    font-size: 22px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 22px;
+}
+.upper-footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.u-l-p-r{
+	margin-left: 13px;
+}
+.upper-footer {
+    padding: 3% 5%;
+        padding-bottom: 3%;
+    background: #253238;
+    color: #C4A880;
+    line-height: 1.7em;
+    padding-bottom: 29px;
+}
+.upper-footer p {
+    color: white;
+    font-size: 13px;
+}
+.footer {
+    color: white;
+    padding-top: 8px;
+	font-size:13px;
+}
+.content-3 h5 {
+    color: #2B3941;
+    font-size: 18px;
+}
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+	
+}
